@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9115BA62A857B0300C39714 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9115BA52A857B0200C39714 /* Launch Screen.storyboard */; };
+		E91A6BBD2A8DBECD00ECC7D2 /* DetectionOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A6BBC2A8DBECD00ECC7D2 /* DetectionOverlayView.swift */; };
 		E94EE1912A84DF1E008402C7 /* CameraTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94EE1902A84DF1E008402C7 /* CameraTestApp.swift */; };
 		E94EE1932A84DF1E008402C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94EE1922A84DF1E008402C7 /* ContentView.swift */; };
 		E94EE1952A84DF21008402C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94EE1942A84DF21008402C7 /* Assets.xcassets */; };
 		E94EE1982A84DF21008402C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94EE1972A84DF21008402C7 /* Preview Assets.xcassets */; };
+		E94EE19F2A84DF57008402C7 /* CameraView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94EE19E2A84DF57008402C7 /* CameraView2.swift */; };
+		E96AA3ED2A856609006F652B /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96AA3EC2A856609006F652B /* Api.swift */; };
+		E9D98DD72A8B677000303834 /* RecResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D98DD62A8B677000303834 /* RecResultView.swift */; };
+		E9D98DD92A8B68B400303834 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D98DD82A8B68B400303834 /* Result.swift */; };
+		E9DEFE2E2A85834D004C286C /* GestureRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DEFE2D2A85834D004C286C /* GestureRecognitionService.swift */; };
+		E9DEFE302A858B43004C286C /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DEFE2F2A858B43004C286C /* TokenManager.swift */; };
+		E9DEFE322A8596ED004C286C /* CameraControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DEFE312A8596ED004C286C /* CameraControl.swift */; };
+		E9DEFE352A859927004C286C /* GestureRecognitionFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DEFE342A859927004C286C /* GestureRecognitionFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9115BA52A857B0200C39714 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E91A6BBC2A8DBECD00ECC7D2 /* DetectionOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionOverlayView.swift; sourceTree = "<group>"; };
 		E94EE18D2A84DF1E008402C7 /* CameraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94EE1902A84DF1E008402C7 /* CameraTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestApp.swift; sourceTree = "<group>"; };
 		E94EE1922A84DF1E008402C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E94EE1942A84DF21008402C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E94EE1972A84DF21008402C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E94EE19E2A84DF57008402C7 /* CameraView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView2.swift; sourceTree = "<group>"; };
+		E94EE1A02A84E0F1008402C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E96AA3EC2A856609006F652B /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		E9D98DD62A8B677000303834 /* RecResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecResultView.swift; sourceTree = "<group>"; };
+		E9D98DD82A8B68B400303834 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E9DEFE2D2A85834D004C286C /* GestureRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognitionService.swift; sourceTree = "<group>"; };
+		E9DEFE2F2A858B43004C286C /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		E9DEFE312A8596ED004C286C /* CameraControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControl.swift; sourceTree = "<group>"; };
+		E9DEFE342A859927004C286C /* GestureRecognitionFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognitionFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,17 @@
 		E94EE18F2A84DF1E008402C7 /* CameraTest */ = {
 			isa = PBXGroup;
 			children = (
+				E9DEFE332A8598AA004C286C /* discarded */,
+				E94EE1A02A84E0F1008402C7 /* Info.plist */,
+				E9DEFE2F2A858B43004C286C /* TokenManager.swift */,
 				E94EE1902A84DF1E008402C7 /* CameraTestApp.swift */,
 				E94EE1922A84DF1E008402C7 /* ContentView.swift */,
+				E91A6BBC2A8DBECD00ECC7D2 /* DetectionOverlayView.swift */,
+				E9DEFE312A8596ED004C286C /* CameraControl.swift */,
+				E9DEFE342A859927004C286C /* GestureRecognitionFunc.swift */,
+				E9D98DD62A8B677000303834 /* RecResultView.swift */,
+				E9D98DD82A8B68B400303834 /* Result.swift */,
+				E9115BA52A857B0200C39714 /* Launch Screen.storyboard */,
 				E94EE1942A84DF21008402C7 /* Assets.xcassets */,
 				E94EE1962A84DF21008402C7 /* Preview Content */,
 			);
@@ -65,6 +95,16 @@
 				E94EE1972A84DF21008402C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9DEFE332A8598AA004C286C /* discarded */ = {
+			isa = PBXGroup;
+			children = (
+				E96AA3EC2A856609006F652B /* Api.swift */,
+				E94EE19E2A84DF57008402C7 /* CameraView2.swift */,
+				E9DEFE2D2A85834D004C286C /* GestureRecognitionService.swift */,
+			);
+			path = discarded;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9115BA62A857B0300C39714 /* Launch Screen.storyboard in Resources */,
 				E94EE1982A84DF21008402C7 /* Preview Assets.xcassets in Resources */,
 				E94EE1952A84DF21008402C7 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91A6BBD2A8DBECD00ECC7D2 /* DetectionOverlayView.swift in Sources */,
+				E94EE19F2A84DF57008402C7 /* CameraView2.swift in Sources */,
+				E9DEFE302A858B43004C286C /* TokenManager.swift in Sources */,
+				E9DEFE2E2A85834D004C286C /* GestureRecognitionService.swift in Sources */,
+				E9DEFE352A859927004C286C /* GestureRecognitionFunc.swift in Sources */,
 				E94EE1932A84DF1E008402C7 /* ContentView.swift in Sources */,
+				E9D98DD72A8B677000303834 /* RecResultView.swift in Sources */,
+				E9D98DD92A8B68B400303834 /* Result.swift in Sources */,
+				E96AA3ED2A856609006F652B /* Api.swift in Sources */,
 				E94EE1912A84DF1E008402C7 /* CameraTestApp.swift in Sources */,
+				E9DEFE322A8596ED004C286C /* CameraControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,11 +325,15 @@
 				DEVELOPMENT_TEAM = FR9Z9J4J2J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +358,15 @@
 				DEVELOPMENT_TEAM = FR9Z9J4J2J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
